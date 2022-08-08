@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Mineral-constest-1.8:jar">
+    <output-path>$PROJECT_DIR$/../server/plugins</output-path>
+    <root id="root">
+      <element id="archive" name="Mineral-constest-1.8.jar">
+        <element id="module-output" name="Mineral-constest-1.8" />
+      </element>
+    </root>
+  </artifact>
+</component>

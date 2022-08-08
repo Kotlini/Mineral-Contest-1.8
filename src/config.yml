@@ -1,0 +1,81 @@
+gametype: "&f[&2Mineral &9Constest&f] -"
+maxPlayers: 16
+minPlayers: 8
+countdownStartTimer: 120
+lobbySpawn:
+  worldname: "world"
+  x: 0
+  y: 120
+  z: 0
+  yaw: 1f
+  pitch: 1f
+useTeams: true
+teamSize: 4
+teamsCount: 4
+gamemode: "SURVIVAL"
+lobbymode: "SURVIVAL"
+spectatorMode: "SPECTATOR"
+foodLevel: 20
+healthLevel: 20.0
+decoGame: true
+decoGameTime: 900
+chestEventLoc: -181, 46, -227
+arena:
+  posRed: -169, 48, -238
+  posBlue: -168, 48, -216
+  posYellow: -193, 48, -215
+  posGreen: -193, 48, -238
+worldname: "world"
+largage:
+  max: 100
+  min: 0
+  center: -181, 46, -227
+teams:
+  red:
+    spawn:
+      worldname: "world"
+      pos: -128, 61, -226
+      yaw: 90
+      pitch: 0
+    protection:
+      pos1: -121, 60, -236
+      pos2: -139, 68, -218
+      worldname: "world"
+  blue:
+    spawn:
+      worldname: "world"
+      pos: -180, 61, -278
+      yaw: 0
+      pitch: 0
+    protection:
+      pos1: -190, 60, -287
+      pos2: -172, 68, -269
+      worldname: "world"
+  yellow:
+    spawn:
+      worldname: "world"
+      pos: -231, 61, -226
+      yaw: -90
+      pitch: 0
+    protection:
+      pos1: -241, 60, -218
+      pos2: -223, 68, -236
+      worldname: "world"
+  green:
+    spawn:
+      worldname: "world"
+      pos: -181, 62, -175
+      yaw: -180
+      pitch: 0
+    protection:
+      pos1: -172, 60, -167
+      pos2: -190, 68, -185
+      worldname: "world"
+armostandEndGame:
+  pPos: 25, 25, 25
+  dPos: 25, 25, 25
+  tPos: 25, 25, 25
+  qPos: 25, 25, 25
+arenaProtect:
+  pos1: -196, 41, -242
+  pos2: -166, 65, -212
