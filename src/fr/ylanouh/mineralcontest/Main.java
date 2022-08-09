@@ -65,12 +65,7 @@ public class Main extends JavaPlugin {
         this.uuidDecoGameManagerMap = new HashMap<>();
 
         //Commands
-        getCommand("start").setExecutor(new StartCommand());
         getCommand("mc").setExecutor(new MCCommand());
-        getCommand("chest").setExecutor(new ChestCommand());
-        getCommand("arene").setExecutor(new ArenaCommand());
-        getCommand("mctime").setExecutor(new TimerCommand());
-        getCommand("mcpoints").setExecutor(new PointsCommand());
 
         //Listeners
         getServer().getPluginManager().registerEvents(new JoinListener() ,this);

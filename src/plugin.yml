@@ -3,20 +3,6 @@ version: v1.1.0
 author: ylanouh
 main: fr.ylanouh.mineralcontest.Main
 commands:
-  start:
-    permission: mineralcontest.admin.start
-    description: Démarage de la partie (Mode Force)
   mc:
     permission: mineralcontest.admin
     description: Commande complète pour la partie (/mc help)
-  chest:
-    permission: mineralcontest.admin.chest
-    description: Permet de gèré les events des coffres
-  arene:
-    description: Permet de se téléporter à l'arène
-  mctime:
-    permission: mineralcontest.admin.timer
-    description: Permet de modifier le temps de la game
-  mcpoints:
-    permission: mineralcontest.admin.points
-    description: Permet de modifier le points d'une équipe
